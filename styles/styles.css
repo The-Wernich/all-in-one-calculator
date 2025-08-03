@@ -618,6 +618,10 @@ footer p:nth-child(2) {
     font-size: 15px;
     margin-top: 20px;
   }
+
+  .end {
+  margin-top: 4rem;
+}
 }
 
 /* ========== Media Query: Max Width 480px (Small Mobile Devices) ========== */
@@ -676,5 +680,10 @@ footer p:nth-child(2) {
     font-size: 15px;
     margin-top: 20px;
   }
+
+  .end {
+  margin-top: 3rem;
+}
+
 }
 
