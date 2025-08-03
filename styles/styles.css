@@ -540,7 +540,7 @@ footer p:nth-child(2) {
     position: absolute;
     color: var(--text-color);
     font-size: 14px;
-    margin-top: 15rem;
+    margin-top: 10rem;
 }
 
 /* ========== Media Query: Max Width 820px (Tablets) ========== */
