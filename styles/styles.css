@@ -100,12 +100,27 @@ p {
 }
 
 .converter-to {
-  font-weight: bold;
+  font-size: 1rem;
+  color: var(--text-color);
+  text-align: center;
+  user-select: none; 
+}
+
+.converter-from {
   font-size: 1rem;
   color: var(--text-color);
   text-align: center;
   user-select: none;
 }
+
+.inputs p {
+  display: flex;
+  flex-direction: column; /* stack span above input */
+  align-items: center;    /* center horizontally */
+  margin-bottom: 1rem;   /* space between rows */
+}
+
+
 
 /* ========== Inputs, Selects & Buttons ========== */
 input,
@@ -698,4 +713,3 @@ footer p:nth-child(2) {
 }
 
 }
-
